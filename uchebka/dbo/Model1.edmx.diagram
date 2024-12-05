@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="4acd527e08ef4e6eb657aacdca3c7fcc" Name="Diagram1" ZoomLevel="106">
+        <EntityTypeShape EntityType="aeModel.Academics" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="aeModel.Countries" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="aeModel.Department" Width="1.5" PointX="3" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="aeModel.Disciplines" Width="1.5" PointX="5.25" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="aeModel.Employee" Width="1.5" PointX="5.25" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="aeModel.Engineer" Width="1.5" PointX="7.5" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="aeModel.Exam" Width="1.5" PointX="9.75" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="aeModel.Faculty" Width="1.5" PointX="0.75" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="aeModel.Gimnazists" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="aeModel.Pupils" Width="1.5" PointX="9.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="aeModel.Request" Width="1.5" PointX="7.5" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="aeModel.Specialities" Width="1.5" PointX="5.25" PointY="13.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="aeModel.Student" Width="1.5" PointX="7.5" PointY="15.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="aeModel.sysdiagrams" Width="1.5" PointX="9.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="aeModel.Teacher" Width="1.5" PointX="7.5" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="aeModel.Zav_Kaf" Width="1.5" PointX="7.5" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="aeModel.Животные_Баглай" Width="1.5" PointX="11.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="aeModel.Страны_Баглай" Width="1.5" PointX="0.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="aeModel.Управление_Баглай" Width="1.5" PointX="2.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="aeModel.Цветы_Баглай" Width="1.5" PointX="11.75" PointY="3.75" IsExpanded="true" />
+        <AssociationConnector Association="aeModel.FK__Departmen__Facul__3C69FB99" ManuallyRouted="false" />
+        <AssociationConnector Association="aeModel.FK__Disciplin__Code___4BAC3F29" ManuallyRouted="false" />
+        <AssociationConnector Association="aeModel.FK__Employee__Code_d__4E88ABD4" ManuallyRouted="false" />
+        <AssociationConnector Association="aeModel.FK__Specialit__Code___48CFD27E" ManuallyRouted="false" />
+        <AssociationConnector Association="aeModel.FK__Exam__Code__0E6E26BF" ManuallyRouted="false" />
+        <AssociationConnector Association="aeModel.FK__Employee__Chief__4F7CD00D" ManuallyRouted="false" />
+        <AssociationConnector Association="aeModel.FK__Engineer__Specia__02084FDA" ManuallyRouted="false" />
+        <AssociationConnector Association="aeModel.FK__Exam__Tab_number__10566F31" ManuallyRouted="false" />
+        <AssociationConnector Association="aeModel.FK__Teacher__Tab_num__04E4BC85" ManuallyRouted="false" />
+        <AssociationConnector Association="aeModel.FK__Zav_Kaf__Code_re__7F2BE32F" ManuallyRouted="false" />
+        <AssociationConnector Association="aeModel.FK__Exam__Reg_number__0F624AF8" ManuallyRouted="false" />
+        <AssociationConnector Association="aeModel.FK__Request__Number__0C85DE4D" ManuallyRouted="false" />
+        <AssociationConnector Association="aeModel.FK__Student__Number___09A971A2" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

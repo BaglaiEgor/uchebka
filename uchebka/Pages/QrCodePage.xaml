@@ -1,0 +1,24 @@
+﻿<Page x:Class="uchebka.Pages.QrCodePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:uchebka.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="1080" d:DesignWidth="1920"
+      Title="QrCodePage" Background="#FFE5D6F3">
+
+    <Grid>
+        <Grid Background="#FFEEE2F8" Height="222" VerticalAlignment="Top">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="200"/>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="200"/>
+            </Grid.ColumnDefinitions>
+
+            <Button Content="Назад" Height="90" VerticalAlignment="Center" Background="#000080" Foreground="White" HorizontalAlignment="Center" Width="180" FontSize="24" Grid.Column="2" Click="Button_Click"/>
+            <Image Margin="680,31,680,31" Source="/Image1.png" Stretch="Fill" Grid.Column="1" Width="160" Height="160"/>
+        </Grid>
+        <Image x:Name="QrImage" HorizontalAlignment="Left" VerticalAlignment="Top" Height="500" Width="500" Margin="694,376,0,0"/>
+    </Grid>
+</Page>

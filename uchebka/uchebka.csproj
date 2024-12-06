@@ -190,7 +190,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Pages\Teachers.xaml">
+    <Page Include="Pages\Employees.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -215,8 +215,8 @@
     <Compile Include="Pages\TeacherMenu.xaml.cs">
       <DependentUpon>TeacherMenu.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Pages\Teachers.xaml.cs">
-      <DependentUpon>Teachers.xaml</DependentUpon>
+    <Compile Include="Pages\Employees.xaml.cs">
+      <DependentUpon>Employees.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\ZavMenu.xaml.cs">
       <DependentUpon>ZavMenu.xaml</DependentUpon>

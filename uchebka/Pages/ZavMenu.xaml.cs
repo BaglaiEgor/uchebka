@@ -40,7 +40,7 @@ namespace uchebka.Pages
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            MainWindow.Duble.MainFrame.Navigate(new Teachers(tab));
+            MainWindow.Duble.MainFrame.Navigate(new Employees(tab));
         }
 
         private void Button_Click_2(object sender, RoutedEventArgs e)

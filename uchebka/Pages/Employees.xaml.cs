@@ -19,10 +19,10 @@ namespace uchebka.Pages
     /// <summary>
     /// Логика взаимодействия для Teachers.xaml
     /// </summary>
-    public partial class Teachers : Page
+    public partial class Employees : Page
     {
         int tab;
-        public Teachers(int TAB)
+        public Employees(int TAB)
         {
             InitializeComponent();
             this.tab = TAB;

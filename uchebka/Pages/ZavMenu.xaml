@@ -17,7 +17,7 @@
             </Grid.ColumnDefinitions>
             <Image Margin="680,31,680,31" Source="/Image1.png" Stretch="Fill" Grid.Column="1" Width="160" Height="160"/>
         </Grid>
-        <Button Content="Учителя" Height="90" VerticalAlignment="Top" Background="#000080" Foreground="White" HorizontalAlignment="Center" Width="180" FontSize="24" Margin="0,436,0,0" Click="Button_Click"/>
+        <Button Content="Сотрудники" Height="90" VerticalAlignment="Top" Background="#000080" Foreground="White" HorizontalAlignment="Center" Width="180" FontSize="24" Margin="0,436,0,0" Click="Button_Click"/>
         <Button Content="Дисциплины" Height="90" VerticalAlignment="Top" Background="#000080" Foreground="White" HorizontalAlignment="Center" Width="180" FontSize="24" Margin="0,549,0,0" Click="Button_Click_2"/>
         <Button Content="Кафедры" Height="90" VerticalAlignment="Top" Background="#000080" Foreground="White" HorizontalAlignment="Center" Width="180" FontSize="24" Margin="0,666,0,0" Click="Button_Click_4"/>
         <Button Content="Экзамены" Height="90" VerticalAlignment="Top" Background="#000080" Foreground="White" HorizontalAlignment="Center" Width="180" FontSize="24" Margin="0,784,0,0" Click="Button_Click_3"/>
